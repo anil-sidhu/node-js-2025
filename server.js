@@ -1,5 +1,11 @@
+const http = require("http");
+http.createServer((req, resp)=>{
+    resp.write("<h2>Hi this is anil sidhu from code step by step</h2>");
+resp.end("Hello code step by step");
+}).listen(4800);
+ 
 
 http.createServer((req, resp)=>{
-    resp.write("<h1>Hello this is anil sidhu</h1>");
-resp.end("Hello");
-}).listen(4800);
+    resp.write("<h2>other server</h2>");
+resp.end("Hello code step by step");
+}).listen(5800);
