@@ -1,0 +1,24 @@
+{
+  "name": "node-2025",
+  "version": "1.0.0",
+  "description": "node js tutorials in hindi 2025",
+  "homepage": "https://github.com/anil-sidhu/node-js-2025#readme",
+  "bugs": {
+    "url": "https://github.com/anil-sidhu/node-js-2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anil-sidhu/node-js-2025.git"
+  },
+  "license": "ISC",
+  "author": "anil sidhu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
