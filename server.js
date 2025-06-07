@@ -4,8 +4,3 @@ http.createServer((req, resp)=>{
 resp.end("Hello code step by step");
 }).listen(4800);
  
-
-http.createServer((req, resp)=>{
-    resp.write("<h2>other server</h2>");
-resp.end("Hello code step by step");
-}).listen(5800);
